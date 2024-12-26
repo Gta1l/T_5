@@ -6,14 +6,16 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         List<String> d = new ArrayList<String>();
-        d.add("asd");
-        d.add("agdfsd");
-        d.add("asddfgg");
-        d.add("asfd");
-        d.add("asgfgasddd");
+        d.add("askhkhkhkhkhkhkd");
+        d.add("agkkkkd");
+        d.add("ashkd");
+        d.add("asf");
+        d.add("ajkhkhkhksg");
         IncreasingList IL = new IncreasingList(d);
         IL.showList();
-        IL.add("lfmfoeda");
+        IL.add("lfhkkmk");
         IL.showList();
+        System.out.println(IL.getMax());
+        System.out.println(IL.getMeanLength());
     }
 }

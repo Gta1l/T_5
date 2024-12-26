@@ -16,4 +16,16 @@ public class IncreasingList {
     public void showList() {
         System.out.println(words);
     }
+
+    public String getMax() {
+        return words.get(words.size() - 1);
+    }
+
+    public float getMeanLength() {
+        float sum = 0f;
+        for (String str : words) {
+            sum += str.length();
+        }
+        return sum/words.size();
+    }
 }
